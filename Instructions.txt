@@ -1,0 +1,60 @@
+-Running the Project:
+
+1. Clone the Project:
+Clone the project repository to your local machine using Git: git clone <repository_url>
+
+2. Navigate to Project Directory:
+Change your working directory to the cloned project folder: cd project-folder
+
+3. Install Dependencies:
+Install the project's dependencies using npm (Node Package Manager): npm install
+
+4. Start the Mock Server:
+Run the mock server to simulate API data: npm run start-mock-server
+
+5. Start the React App:
+Open a new terminal window and start the React app: npm start
+This will launch the app in your default web browser at http://localhost:3000.
+
+
+Additional Information: 
+
+Description of Table and Card Components:
+
+Table Component:
+
+The table component presents a comprehensive list of properties with detailed information for each property, such as the property's title, address, 
+the number of beds, baths, covered area in square feet, commercial status, and price. 
+This component offers various interactive features for managing and exploring the property data:
+
+Sorting: By clicking on the header cells adorned with sorting icons, you can arrange the properties based on the selected column. 
+The available columns for sorting include Title, Beds, Covered Area SQFT, and Price.
+
+Search: Utilize the dedicated search input to filter properties based on their titles. 
+As you input search keywords, the table dynamically updates to display only the properties that match the search criteria.
+
+Hide Commercial: A checkbox is provided to toggle the display of commercial properties. 
+When checked, commercial properties are hidden from the table, and when unchecked, they are shown.
+
+Card Component:
+
+The card component provides an elegant and visually pleasing presentation of detailed information for an individual property. 
+This component showcases the property's essential attributes:
+
+Title: The title of the property, describing its type or category.
+
+Address: The location or address of the property.
+
+Beds: The number of bedrooms available in the property.
+
+Baths: The number of bathrooms available in the property.
+
+Covered Area: The total covered area of the property, measured in square feet.
+
+Commercial Status: Indicates whether the property is classified as commercial. 
+This is presented as a "Yes" or "No" value.
+
+Price: The cost or price of the property.
+
+Together, the Card Component presents a focused and aesthetically pleasing way to explore the specifics of an individual property, 
+making it easier to grasp the essential information at a glance.
